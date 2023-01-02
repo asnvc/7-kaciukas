@@ -8,11 +8,11 @@ main{
     display: inline-block;
     width: 1000px;
     margin-left: calc(50% - 500px);
-    background-color: aqua;
+   
 }
 
 header{
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 
 img > header{
@@ -39,3 +39,60 @@ nav > a{
 a:last-child{
     margin:0;
 }
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+img > main{
+    width: 55%;
+    float:right;
+}
+
+div{
+    float: left;
+    margin-top: 7em;
+    width: 45%;
+}
+
+div > h1{
+    font-size: 50px;
+    text-align: left;
+    font-weight: 100;
+    color: #000;
+
+}
+
+div > h1 > span{
+    font-weight: normal;
+}
+
+div > p{
+    font-size: 16px;
+    text-align: left;
+}
+
+div > a{
+    display: inline-block;
+    background-color: #6cbedd;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1em;
+    padding: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 999em;
+    border: 0.15em solid #6cbedd;
+    margin-top: 20px;
+}
+
+div > a:nth-child(4){
+    background-color: #fff;
+    color: #000;
+}
+
+div > a:hover{
+    box-shadow: 3px 4px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
