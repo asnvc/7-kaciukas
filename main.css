@@ -1,7 +1,6 @@
 body{
-    margin:0;
+    margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
 }
 
 header,
@@ -9,8 +8,34 @@ main{
     display: inline-block;
     width: 1000px;
     margin-left: calc(50% - 500px);
-    margin-bottom: 30px;
     background-color: aqua;
+}
 
+header{
+    margin-bottom: 30px;
+}
 
+img > header{
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+    object-position: left;
+    float: left;
+}
+
+nav{
+    float: right; 
+    margin-top: 10px;
+}
+
+nav > a{
+    display: inline-block;
+    margin-right: 3em;
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:last-child{
+    margin:0;
 }
