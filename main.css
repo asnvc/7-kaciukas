@@ -3,19 +3,22 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-header,
-main{
+.container{
     display: inline-block;
     width: 1000px;
     margin-left: calc(50% - 500px);
+
    
 }
 
-header{
-    margin-bottom: 100px;
+.container:nth-child(1){
+    margin-top: 20px;
 }
 
-img > header{
+.container:nth-child(2){
+    margin-top: 80px;
+}
+.logo{
     height: 40px;
     width: 40px;
     object-fit: contain;
@@ -23,12 +26,12 @@ img > header{
     float: left;
 }
 
-nav{
+.main-menu{
     float: right; 
     margin-top: 10px;
 }
 
-nav > a{
+.main-menu > .link{
     display: inline-block;
     margin-right: 3em;
     color: #000;
@@ -36,43 +39,44 @@ nav > a{
     font-size: 20px;
 }
 
-a:last-child{
+.link:last-child{
     margin:0;
 }
 
-nav > a:hover{
+.link:hover{
     text-decoration: underline;
 }
 
-img > main{
-    width: 55%;
+ img{
+    width: 45%;
     float:right;
 }
 
-div{
+.left-collum{
     float: left;
-    margin-top: 7em;
-    width: 45%;
+    margin-top: 0em;
+    width: 35%;
 }
 
-div > h1{
-    font-size: 50px;
+.main-title{
+    font-size: 80px;
     text-align: left;
     font-weight: 100;
     color: #000;
 
 }
 
-div > h1 > span{
+.main-title > span{
     font-weight: normal;
 }
 
-div > p{
+.description {
     font-size: 16px;
     text-align: left;
+    font-weight: 100;
 }
 
-div > a{
+.button{
     display: inline-block;
     background-color: #6cbedd;
     color: #fff;
@@ -85,14 +89,15 @@ div > a{
     border-radius: 999em;
     border: 0.15em solid #6cbedd;
     margin-top: 20px;
+    margin-right: 20px ;
 }
 
-div > a:nth-child(4){
+.button:nth-child(4){
     background-color: #fff;
     color: #000;
 }
 
-div > a:hover{
+.button:hover{
     box-shadow: 3px 4px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
