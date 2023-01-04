@@ -63,7 +63,15 @@ body{
     text-align: left;
     font-weight: 100;
     color: #000;
+}
 
+.main-title::after{
+    content: '';
+    display: block;
+    margin-top: 8px;
+    width: 160px;
+    height: 6px;
+    background-color: #6cbedd;
 }
 
 .main-title > span{
